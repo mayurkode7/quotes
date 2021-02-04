@@ -66,23 +66,13 @@ footer p {
 }
 
 .btn {
-  border: 2px solid black;
+  border: 1px solid white;
   border-radius: 6px;
   background-color: white;
   color: black;
   padding: 10px 20px;
-  /* font-size: 16px; */
+  font-size: 12px;
   cursor: pointer;
-}
-/* Blue */
-.info {
-  border-color: #2196f3;
-  color: dodgerblue;
-}
-
-.info:hover {
-  background: #2196f3;
-  color: white;
 }
 
 @keyframes fadein {
