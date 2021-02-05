@@ -5,10 +5,11 @@
 }
 :root {
   --bg1: lightblue;
-}
-
-body {
-  background-color: var(--bg1);
+  --indigo: #093145;
+  --alice: #107896;
+  --kelly: #829356;
+  --ruby: #9a2617;
+  --coral: #c2571a;
 }
 
 main {
@@ -29,6 +30,39 @@ main p {
   font-family: "Lora", serif;
   font-size: 20px;
   padding: 10px 0;
+}
+
+.theme span {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px 10px;
+}
+
+.indigo {
+  background-color: var(--indigo);
+  color: lightgray;
+}
+
+.alice {
+  background-color: var(--alice);
+  color: lightgray;
+}
+
+.kelly {
+  background-color: var(--kelly);
+  color: lightgray;
+}
+
+.ruby {
+  background-color: var(--ruby);
+  color: lightgray;
+}
+
+.coral {
+  background-color: var(--coral);
+  color: lightgray;
 }
 
 .fade-in {
@@ -65,10 +99,14 @@ footer p {
   margin-bottom: 20px;
 }
 
+footer a {
+  color: lightgray;
+}
+
 .btn {
-  border: 1px solid white;
+  border: 1px solid lightblue;
   border-radius: 6px;
-  background-color: white;
+  background-color: lightblue;
   color: black;
   padding: 10px 20px;
   font-size: 12px;
